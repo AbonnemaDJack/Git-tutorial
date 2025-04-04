@@ -1,0 +1,22 @@
+Employee:
+Num_E (Primary Key)
+Name
+Position
+Salary
+Department Num S
+
+Projects:
+Num_P (Primary Key)
+Title
+Start Date 
+End Date
+
+Employee_Projects
+Employee_Num_E (Foreign Key)
+Project_Num_P (Foreign Key)
+Roles
+
+Department:
+Num_S (Primary Key)
+Label
+Manager Name
